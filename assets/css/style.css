@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to left, #860000, #545484);
+    margin: 0;
+
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #860000, #545484);
+    margin: 0;
+    height: 8vh;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.header_container #img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_container i {
+    display: flex;
+}
+
+.header_container img {
+    width: 30vh;
+}
+
+
+.main_container {
+  display: flex;
+  justify-content: center;
+}
+
+.main_container .main_form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_container .main_form .movies_inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main_container .main_form .movies_inputs div {
+  flex: 0 0 calc(30% - 20px);
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 15vh;
+}
+
+.main_container .main_form .movies_inputs iframe {
+  width: 100%;
+}
+
+  
+
+
+
