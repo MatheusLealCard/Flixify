@@ -31,30 +31,14 @@ body {
 
 
 .main_container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.main_container .main_form {
-  display: flex;
-  flex-wrap: wrap;
+.main_container iframe {
+    display: flex;
+    margin-top: 8%;
 }
-
-.main_container .main_form .movies_inputs {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.main_container .main_form .movies_inputs a {
-  flex: 0 0 2;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-top: 8vh;
-}
-
-
-  
-
 
 
